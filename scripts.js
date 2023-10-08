@@ -17,5 +17,5 @@ hogarLink.addEventListener("click", function(event) {
     event.preventDefault();
     
     // Redirigir a la página deseada (por ejemplo, "pagina2.html")
-    window.location.href = "Home.html";
+    window.location.href = "home.html";
 });
