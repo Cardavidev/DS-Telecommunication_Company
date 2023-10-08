@@ -18,6 +18,11 @@
         
         /* Otras propiedades de estilo, como márgenes o bordes, si es necesario */
         }
+        
+        .darkened-background {
+        background-color: rgba(197, 197, 197, 0.8); /* Cambia el fondo a un color semi-transparente si deseas */
+        padding: 50px;
+        }
 
         /* Estilo personalizado para la barra horizontal negra en la parte superior */
         .top-bar {
@@ -170,7 +175,7 @@
                     </div>
                     <form class="form-inline my-2 my-lg-0 ml-auto">
                         <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -220,7 +225,8 @@
     <div class="button-separator"></div> <!-- Div para el separador -->
 </div>
 
-<div class="button-container">
+<!-- Botones de plataformas de video -->
+<div class="button-container darkened-background">
     <button class="custom-button">
         <img src="imagenes/Netflix icon.png" alt="Imagen 1"class="imagen-personalizada2">
     </button>
@@ -240,7 +246,7 @@
 
 <div class="container-lg my-5"></div>
 
-<div class="container-lg align-content-center">
+<div class="container-fluid align-content-center">
     <div class="text-center">
         <h2>Paquetes Fast</h2>
     </div>
