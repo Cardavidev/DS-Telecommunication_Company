@@ -7,7 +7,7 @@ serviciosLink.addEventListener("click", function(event) {
     event.preventDefault();
     
     // Redirigir a la página deseada (por ejemplo, "pagina2.html")
-    window.location.href = "p1.html";
+    window.location.href = "servicios.html";
 });
 
 // Agregar un evento de clic al enlace de "Hogar"
@@ -17,5 +17,5 @@ hogarLink.addEventListener("click", function(event) {
     event.preventDefault();
     
     // Redirigir a la página deseada (por ejemplo, "pagina2.html")
-    window.location.href = "index.html";
+    window.location.href = "Home.html";
 });
