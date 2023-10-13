@@ -165,7 +165,7 @@
         <div class="row align-items-center">
             <div class="col-md-4"> <!-- Columna para el logotipo -->
                 <a class="navbar-brand" href="#">
-                    <img src="imagenes/logo 03.png" alt="Logo de la Empresa" class="imagen-personalizada">
+                    <img src="{{ url_for('static', filename='imagenes/logo 03.png') }}" alt="Logo de la Empresa" class="imagen-personalizada">
                 </a>
             </div>
             <div class="col-md-8"> <!-- Columna para el formulario de búsqueda y el mensaje -->
@@ -229,19 +229,19 @@
 <!-- Botones de plataformas de video -->
 <div class="button-container darkened-background">
     <button class="custom-button">
-        <img src="imagenes/Netflix icon.png" alt="Imagen 1"class="imagen-personalizada2">
+        <img src="{{ url_for('static', filename='imagenes/Netflix icon.png') }}"  alt="Imagen 1"class="imagen-personalizada2">
     </button>
     <button class="custom-button">
-        <img src="imagenes/disney+.png" alt="Imagen 2" class="imagen-personalizada2">
+        <img src="{{ url_for('static', filename='imagenes/disney+.png') }}" alt="Imagen 2" class="imagen-personalizada2">
     </button>
     <button class="custom-button">
-        <img src="imagenes/hbo+.jpg" alt="Imagen 3" class="imagen-personalizada2">
+        <img src="{{ url_for('static', filename='imagenes/hbo+.jpg') }}" alt="Imagen 3" class="imagen-personalizada2">
     </button>
     <button class="custom-button">
-        <img src="imagenes/Paramount_Plus.webp" alt="Imagen 4" class="imagen-personalizada2">
+        <img src="{{ url_for('static', filename='imagenes/Paramount_Plus.webp') }}" alt="Imagen 4" class="imagen-personalizada2">
     </button>
     <button class="custom-button">
-        <img src="imagenes/Prime_Video.png" alt="Imagen 5" class="imagen-personalizada2">
+        <img src="{{ url_for('static', filename='imagenes/Prime_Video.png') }}"src="imagenes/Prime_Video.png" alt="Imagen 5" class="imagen-personalizada2">
     </button>
 </div>
 
@@ -360,6 +360,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="scripts.js"></script>
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>
