@@ -3,6 +3,7 @@ var serviciosLink = document.getElementById("servicios-link");
 var hogarLink = document.getElementById("hogar-link");
 var inicio_sesionlink=document.getElementById("inicio_sesion-link");
 var registro_usuariolink = document.getElementById("registro_usuario-link");
+var perfillink=document.getElementById("perfil-link");
 
 // Agregar un evento de clic al enlace de "Servicios"
 serviciosLink.addEventListener("click", function(event) {
@@ -39,4 +40,14 @@ registro_usuariolink.addEventListener("click", function(event) {
     
     // Redirigir a la página deseada (por ejemplo, "pagina2.html")
     window.location.href = "/registro_usuario";
+});
+
+// Agregar un evento de clic al enlace de "perfil-link"
+
+perfillink.addEventListener("click", function(event) {
+    // Prevenir el comportamiento predeterminado del enlace
+    event.preventDefault();
+    
+    // Redirigir a la página deseada (por ejemplo, "pagina2.html")
+    window.location.href = "/perfil";
 });
