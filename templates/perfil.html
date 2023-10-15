@@ -246,7 +246,7 @@
     <div class="container">
         <div class="profile-container">
             {% if usuario %}
-            <img class="profile-image" src="{{ url_for('static', filename=usuario.foto) }}" alt="Foto de Perfil">
+            <img class="profile-image" src="{{ url_for('static', filename=imagenes/usuariofoto.png) }}" alt="Foto de Perfil">
             {% else %}
                 <p>Usuario no autenticado</p>
             {% endif %}
